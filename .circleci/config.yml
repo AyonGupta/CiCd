@@ -1,0 +1,29 @@
+# For a detailed guide to building and testing on iOS, read the docs:
+# https://circleci.com/docs/2.0/testing-ios/
+
+version: 2.1
+
+jobs:
+  build-and-test:
+    macos:
+      xcode: 11.0.0 # Specify the Xcode version to use
+    environment :
+	FL_OUTPUT_DIR : output
+    steps:
+      - checkout
+      - run :
+	name : Build and run tests
+        command: fastlane scan
+	environment:
+		SCAN_DEVICE : iPhone 8
+		SCAN_SCHEME : CiCd
+	
+	- store_tests_results:
+		path : output/scan
+	- store_artifacts:
+		path: output
+workflows :
+	version : 2.1
+	build-and-test:
+		jobs: 
+			- build-and-test
