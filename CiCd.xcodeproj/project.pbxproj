@@ -15,6 +15,9 @@
 		E97AFFAE25D6B42F008DB56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97AFFAC25D6B42F008DB56F /* LaunchScreen.storyboard */; };
 		E97AFFB925D6B42F008DB56F /* CiCdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97AFFB825D6B42F008DB56F /* CiCdTests.swift */; };
 		E97AFFC425D6B42F008DB56F /* CiCdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97AFFC325D6B42F008DB56F /* CiCdUITests.swift */; };
+		E9D7D90B25DA71990094ED11 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D90A25DA71990094ED11 /* TestViewModel.swift */; };
+		E9D7D90C25DA71990094ED11 /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D90A25DA71990094ED11 /* TestViewModel.swift */; };
+		E9D7D91725DA74ED0094ED11 /* Test-TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D91625DA74ED0094ED11 /* Test-TestViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,8 @@
 		E97AFFBF25D6B42F008DB56F /* CiCdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiCdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97AFFC325D6B42F008DB56F /* CiCdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiCdUITests.swift; sourceTree = "<group>"; };
 		E97AFFC525D6B42F008DB56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D7D90A25DA71990094ED11 /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		E9D7D91625DA74ED0094ED11 /* Test-TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test-TestViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,7 @@
 				E97AFFAA25D6B42F008DB56F /* Assets.xcassets */,
 				E97AFFAC25D6B42F008DB56F /* LaunchScreen.storyboard */,
 				E97AFFAF25D6B42F008DB56F /* Info.plist */,
+				E9D7D90A25DA71990094ED11 /* TestViewModel.swift */,
 			);
 			path = CiCd;
 			sourceTree = "<group>";
@@ -115,6 +121,7 @@
 			children = (
 				E97AFFB825D6B42F008DB56F /* CiCdTests.swift */,
 				E97AFFBA25D6B42F008DB56F /* Info.plist */,
+				E9D7D91625DA74ED0094ED11 /* Test-TestViewModel.swift */,
 			);
 			path = CiCdTests;
 			sourceTree = "<group>";
@@ -260,6 +267,7 @@
 			files = (
 				E97AFFA625D6B42C008DB56F /* ViewController.swift in Sources */,
 				E97AFFA225D6B42C008DB56F /* AppDelegate.swift in Sources */,
+				E9D7D90B25DA71990094ED11 /* TestViewModel.swift in Sources */,
 				E97AFFA425D6B42C008DB56F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D7D90C25DA71990094ED11 /* TestViewModel.swift in Sources */,
+				E9D7D91725DA74ED0094ED11 /* Test-TestViewModel.swift in Sources */,
 				E97AFFB925D6B42F008DB56F /* CiCdTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
