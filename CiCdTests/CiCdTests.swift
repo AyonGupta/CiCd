@@ -24,7 +24,7 @@ class CiCdTests: XCTestCase {
         
         let i = 0
         let y = 2
-        XCTAssert(i + y == 3 , "I is suppose to be two")
+        XCTAssert(i + y == 2 , "I is suppose to be two")
         
         
     }
