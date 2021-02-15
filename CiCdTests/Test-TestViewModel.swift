@@ -29,9 +29,9 @@ class Test_TestViewModel: XCTestCase {
         let diff = vm.findDiff()
         let mult = vm.findMult()
         
-        XCTAssert(add != first + second, " *** Add case fail ***")
-        XCTAssert(diff != first - second, " *** Diff case fail ***")
-        XCTAssert(mult != Int64(first * second), " *** Multi case fail ***")
+        XCTAssert(add == first + second, " *** Add case fail ***")
+        XCTAssert(diff == -(first - second), " *** Diff case fail ***")
+        XCTAssert(mult == Int64(first * second), " *** Multi case fail ***")
         
     }
 
