@@ -23,8 +23,8 @@ class CiCdTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
         let i = 0
-        
-        XCTAssert(i == 0 , "I is suppose to be zero")
+        let y = 2
+        XCTAssert(i + y == 2 , "I is suppose to be two")
         
         
     }
